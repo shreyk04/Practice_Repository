@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Heebo:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100%;
+    /* padding:0 1.3rem ; */
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       margin:0 4rem ;
+       padding: 0.7rem 0;
+
+   
+    
+      
+
+    
+}
+.line{
+    font-size: 20px;
+    background-color: gray;
+height: 1px;
+
+}
+
+.title img{
+    width: 200px;
+}
+/* .title{
+    display: flex;
+}
+.title h3{
+    font-family: Barlow, sans-serif;
+    letter-spacing: 2px;
+font-size: 1.2rem;
+margin: 0 10px;
+}
+.title-wrapper{
+position: relative; 
+color: crimson;   
+}
+
+.title-wrapper::before{
+    position: absolute;
+    background-image: url("img/img4.svg");
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 9px;
+    bottom: -14px;
+    width: 100%;
+    
+} */
+
+/* 
+.title span{
+    border-bottom: dot;
+    position: relative;
+}*/
+/* .title span::after{
+    background-image: url("img/img3.png");
+    background-position: 100% center;
+  
+    background-repeat: no-repeat;
+    bottom: -5px;
+    content: "h";
+    height: 10px;
+    left: 0px;
+    padding: 0.5rem 0px;
+    position: absolute;
+    width: 100%;
+}  */
+ul{
+    display: flex;
+    align-items: center;
+   
+}
+ul li{
+    list-style: none;
+    margin: 1rem;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+    text-transform: uppercase;
+    font-style: italic;
+    cursor: pointer;
+   
+}
+.login-btn{
+    background-color: black;
+   
+}
+.btn{
+    /* border: none;
+    background-color: black;
+    color: white;
+    font-size: 1rem; */
+font-size: 13px;
+    color: white;
+    padding: 13px 30px;
+     border-radius: 1.5rem;
+    
+     font-family: Barlow, sans-serif;
+     font-weight: 700;
+     letter-spacing: 1px;
+     
+     text-transform: uppercase;
+     font-style: italic;
+     border: none;
+     cursor: pointer;
+}
+
+.login-btn2{
+    background-color: crimson;
+   
+    padding: 15px 45px;
+}
+
+.pro-btn{
+    margin-left: 10px;
+  
+    background-color: blueviolet;
+  border-radius: 3px;
+  font-size: 10px;
+padding: 3px 10px;
+
+}
+.icon{
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+
+.homepage{
+    display: flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    margin: 0 5rem;
+    /* width: 100%; */
+    padding: 7rem 2rem;
+    margin-bottom: 4rem;
+    
+}
+.text{
+    width: 100%;
+    
+}
+.text h1{
+    width: 75%;
+    font-size: 3.3rem;
+    font-family: 'Barlow', sans-serif;
+color: rgb(53, 53, 193);
+}
+.text p{
+    width: 80%;
+   font-size: 1.2rem;
+   margin: 2rem 0;
+   font-family: 'Heebo', sans-serif;
+
+}
+.home-image{
+    width: 80%;
+    height: 100%;
+
+}
+.home-image img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.header-wrapper{
+    position: relative;
+}
+.header-wrapper::before{
+    position: absolute;
+    background-image: url("img/img4.svg");
+    background-position: 100% center;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: -20px;
+    
+    height: 10px;
+    left: 0px;
+    padding: 0.5rem 0px;
+    position: absolute;
+    width: 100%;
+}
+.middle{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0 4rem ;
+       padding: 1rem 0;
+
+}
+.middle h4{
+    font-family: 'Heebo', sans-serif;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 2rem;
+}
+.working{
+    display:flex ;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    text-align: center;
+    /* background-color: antiquewhite; */
+   
+}
+.work{
+    width: 25%;
+    /* background-color: rgb(165, 204, 237); */
+    padding: 3rem 0;
+    
+}
+.work i{
+    font-size: 2rem;
+    color: rgb(53, 53, 193);
+}
+.working h3{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+}
+.working p{
+    /* background-color: aliceblue; */
+    /* font-family: 'Heebo', sans-serif; */
+
+    font-size: 1.1rem;
+    font-family: Barlow, sans-serif;
+}
